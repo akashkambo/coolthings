@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="(max-width: 600px)" href="phone.css">
+  <link rel="stylesheet" media="(min-width: 600px)" href="style2.css">
+</head>
+
+<body>
+  <!-- making of navigation bar -->
+  <nav id="nav">
+    <ul id="ul">
+      <div class="img">
+                <a href="index.html" title="COOL THINGS"> <img src="cool.JPG" style="width: 90px; height: 90px;"
+                  alt="COOL THINGS"></a>
+            </div>
+            <li class="li"><a href="index.html">Home</a> </li>
+            <li class="li"><a href="categories.html">Categories</a> </li>
+            <li class="li" id="active"><a href="channel.html">Our Channels</a> </li>
+        </ul>
+      </nav>
+      
+      
+      <!--navigation  for mobile -->
+
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <div class="topnav">
+      <a href="#home" class="active">COOL THINGS</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+          <a href="index.html">Home</a>
+          <a href="categories.html">Categrioes</a>
+          <a href="channel.html">Our Channels</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="logo">
+        <img src="cool.JPG" width="170px" height="170px" alt="COOL-THINGS">
+      </div>
+
+      <div class="sorry">
+    <h1>This page is in developing mode and coming soon.Thanks</h1>
+  </div>
+  
+  <script src="/js.js"></script>
+  <script>
+    if ("come") {
+        document.getElementById("nav").onmouseleave = function () {
+          document.getElementById("nav").style.marginLeft = '-17vw';
+        }
+
+      }
+    if ("come") {
+      document.getElementById("nav").onmouseenter = function () {
+            document.getElementById("nav").style.marginLeft = '0vw';
+          }
+
+    }
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    margin-left: -17vw;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 18vw;
+    background-color: #0400ff;
+    box-shadow: 4px 4px 10px black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    position: fixed;   
+}
+#ul{
+    margin-top: 60px;
+}
+
+
+nav ul li{
+    border-bottom: 2px solid #000000;
+    margin-top: 80px;
+    list-style: none;
+}
+
+nav ul li a{
+
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px 30px;
+    margin: 1%;
+    border-radius: 30px;
+    
+}
+nav ul li a:hover{
+    color: #1900ff;
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav ul li #active a:hover{
+    color: #1900ff;
+}
+
+/* styling of logo */
+
+.img{
+    margin-top: -25% ;
+    padding-bottom: -25% ;
+    margin-left: 55% ;
+}
+
+.img img{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 50px;
+    color: white;
+}
+
+.img img:hover{
+    box-shadow: 4px 4px 10px black;
+    
+}
+
+/* styling of headding */
+
+.cool{
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cool h1{
+    position: absolute;
+    top: 30px;
+    display: inline;
+    color: red;
+}
+/* hedding da logo */
+.th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 43%;
+    border-radius: 50%;
+}
+
+.th img{
+    border-radius: 50%;
+}
+/* ehe peragraph aaa */
+#p {
+    z-index: -1;
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+    left: 23px;
+    border-bottom: 1px solid rgb(122, 112, 112);
+    padding-bottom: 22px;
+    cursor: default;
+}
+
+p{
+    font-size: 25px;
+    position: absolute;
+    left: 23px;
+}
+
+#a{
+    border-bottom: 2px solid black;
+    top: 370px;
+    z-index: -1;
+    cursor: default;
+}
+
+
+.div{
+    position: absolute;
+    top: 450px;
+    width: 50vw;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.div img{
+    border-radius: 3%;
+}
+#active a{
+    color: rgb(170, 0, 0);
+}
+
+footer{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 555px;
+    color: #fff;
+    background-color: #524f4fc5;
+    text-align: center;
+    position: fixed;
+    justify-content: center;
+    z-index: -1;
+}
+
+.topnav{
+    display: none;
+}
+
+
